@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 cd example/software/ExampleFunction
 mvn clean package
 
